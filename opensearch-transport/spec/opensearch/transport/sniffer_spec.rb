@@ -93,7 +93,7 @@ describe OpenSearch::Transport::Transport::Sniffer do
                 "ip"   => "127.0.0.1",
                 "version" => "7.0.0",
                 "roles" => [
-                  "master",
+                  "cluster_manager",
                   "data",
                   "ingest"
                 ],
