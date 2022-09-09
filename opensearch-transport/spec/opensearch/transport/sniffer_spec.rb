@@ -135,7 +135,7 @@ describe OpenSearch::Transport::Transport::Sniffer do
       end
 
       it 'parses the roles' do
-        expect(sniffer.hosts[0][:roles]).to eq(['cluster_master',
+        expect(sniffer.hosts[0][:roles]).to eq(['cluster_manager',
                                                 'data',
                                                 'ingest'])
       end
