@@ -121,7 +121,7 @@ describe OpenSearch::API::Utils do
                 {"title":"Test"}
                 {"update":{"_index":"myindexB","_id":"2"}}
                 {"doc":{"title":"Update"}}
-                {"delete":{"_index":"myindexC","mytypeC","_id":"3"}}
+                {"delete":{"_index":"myindexC","_id":"3"}}
         PAYLOAD
       end
 
